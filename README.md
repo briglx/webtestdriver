@@ -42,11 +42,15 @@ Run Docker image.
 
 ```bash
 docker run --rm -it  webtestdriver:latest
+
+locus -f main.py
 ```
 
 Run Docker image and map the serving port to a different port
 ```bash
 docker run --rm -it -p 8098:8089  webtestdriver:latest
+
+locus -f main.py
 ```
 
 # References
