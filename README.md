@@ -21,13 +21,13 @@ python -m pip install requirements-dev.txt
 Run from command line. 
 
 ```bash
-locust -f main.py
+locust -f src/main.py
 ```
 
 Try to run headlest. This doesn't work yet.
 
 ```bash
-locust -f main.py -H <hostname> -u 10000 -r 10 -t 300 --headless
+locust -f src/main.py -H <hostname> -u 10000 -r 10 -t 300 --headless
 ```
 
 # Run Docker 
